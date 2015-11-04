@@ -89,8 +89,6 @@
 		BDC1E5481AC9DD78002A86AE /* PitchPerfect2 */ = {
 			isa = PBXGroup;
 			children = (
-				BDD09A0C1ACA16900063E782 /* RecordedAudio.h */,
-				BDD09A0D1ACA16900063E782 /* RecordedAudio.m */,
 				BDC1E54D1AC9DD78002A86AE /* AppDelegate.h */,
 				BDC1E54E1AC9DD78002A86AE /* AppDelegate.m */,
 				BDC1E5501AC9DD78002A86AE /* RecordSoundsViewController.h */,
@@ -108,6 +106,8 @@
 		BDC1E5491AC9DD78002A86AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BDD09A0C1ACA16900063E782 /* RecordedAudio.h */,
+				BDD09A0D1ACA16900063E782 /* RecordedAudio.m */,
 				BDD09A081ACA0C080063E782 /* movie_quote.mp3 */,
 				BDC1E54A1AC9DD78002A86AE /* Info.plist */,
 				BDC1E54B1AC9DD78002A86AE /* main.m */,
@@ -360,7 +360,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PitchPerfect2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -371,7 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PitchPerfect2/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

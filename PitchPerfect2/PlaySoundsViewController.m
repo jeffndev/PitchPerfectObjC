@@ -30,7 +30,7 @@ AVAudioPlayer * player;
     //      restart the playback in the effect mode..
     //      OR, maybe this is where the effect needs
     //      to be set...
-    NSLog(@"Selected segment index changed, it is now: %d",[sender selectedSegmentIndex]);
+    NSLog(@"Selected segment index changed, it is now: %ld",(long)[sender selectedSegmentIndex]);
     
 }
 
